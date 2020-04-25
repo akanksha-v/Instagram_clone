@@ -1,0 +1,14 @@
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+
+#login_button, #signup_button{
+    height: 40px;
+    width:100px;
+    background-color: blueviolet;
+    color:white;
+    margin:15px 15px;
+}
