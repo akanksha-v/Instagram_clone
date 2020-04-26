@@ -31,7 +31,7 @@
     <input type="submit" name="register" value="signup" class="submit">
     </form>
     </div>
-
+    
     <img src="phone.jpg" id="img1">
     <script src="./js/login.js"></script>
 </body>    
