@@ -1,0 +1,47 @@
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+body{
+    position: relative;
+    text-align: center;
+}
+button{
+    position: relative;
+    height: 120px;
+    width:150px;
+    background-color: #f21aed;
+    color:white;
+    margin:15px 15px;
+    font-size:28px;
+}
+button:hover{
+cursor:pointer;
+transform:scale(1.15);
+}
+#input{
+    height:100px;
+    width:260px;
+    margin:15px;
+}
+#submit{
+    height: 50px;
+    width:80px;
+    background-color: pink;
+    margin:15px 15px;
+    font-size:18px;
+}
+.submit:hover{
+    cursor:pointer;
+transform:scale(1.15);
+}
+#instruction{
+    font-size: 32px;
+    color:green;
+    margin:15px 15px;
+    /* width:350px; */
+    
+    position: relative;
+}

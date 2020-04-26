@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>profile</title>
+        <link rel="stylesheet" href="/css/profile.css">
+    </head>    
+<body>
+    <div id="instruction">If u want to edit your profile then click on the below button or else continue with your feed</div><br>
+    <button onclick="editprofile()">Edit Your Profile</button>
+  
+
+    <form action="./../controllers/profile.php" method="POST" id="profilephoto" class="hide" enctype="multipart/form-data">
+        <input type="text" name="bio" id="input" placeholder="Type bio for Yourself..">
+        <input type="file" name="file"><br>
+        <input type="submit" name="submit" value="upload" id="submit">
+        </form>
+
+
+<a href="./feed.html"><button>Continue with ur feed</button></a>
+<script src="./../../js/profile.js"></script>
+</body>
+</html>

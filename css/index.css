@@ -4,11 +4,59 @@
 .show{
     display:block;
 }
-
+#insta{position: relative;
+    font-size:60px;
+    font-family: 'Lemonada', cursive;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+   margin:5% 5%; 
+}
+body{
+    text-align: center;
+    background-color: #f21aed;
+}
 #login_button, #signup_button{
-    height: 40px;
-    width:100px;
-    background-color: blueviolet;
+    position: relative;
+    height: 60px;
+    width:150px;
+    background-color: #008000;
     color:white;
     margin:15px 15px;
+    font-size:30px;
+}
+button:hover{
+cursor:pointer;
+transform:scale(1.15);
+}
+#img{
+    position:absolute;
+   top:10%;
+   left:5%;
+   height:200px;
+   width:200px;
+}
+#img1{
+    position:absolute;
+    right:5%;
+    top:10%;
+    height:500px;
+    width:400px;
+}
+
+.input{
+    height:40px;
+    width:160px;
+    margin:15px;
+}
+
+.submit{
+    height: 50px;
+    width:80px;
+    background-color: pink;
+    margin:15px 15px;
+    font-size:18px;
+}
+.submit:hover{
+    cursor:pointer;
+transform:scale(1.15);
 }
